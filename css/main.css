@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+html {
+  scroll-padding-top: 67px;
+}
+
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
@@ -146,6 +150,15 @@ header .fa-chevron-down {
   font-size: 14px;
 }
 
+.aboutus .aboutus-hover {
+  -webkit-transition: color .4s;
+  transition: color .4s;
+}
+
+.aboutus .aboutus-hover:hover {
+  color: #039dff;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -161,6 +174,12 @@ header .fa-chevron-down {
   }
   header p {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 57px;
   }
 }
 /*# sourceMappingURL=main.css.map */

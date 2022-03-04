@@ -7,6 +7,9 @@
     margin: 0
     padding: 0
 
+html
+    scroll-padding-top: 67px
+
 body
     position: relative
     font-family: 'Montserrat', sans-serif;
@@ -113,7 +116,14 @@ header
         text-transform: uppercase
 
     .aboutus-card-text
-        font-size: 14px        
+        font-size: 14px   
+
+    .aboutus-hover
+        transition: color .4s
+        
+    .aboutus-hover:hover 
+        color: $main-color
+
 
 
 @media(min-width: 375px)
@@ -133,3 +143,9 @@ header
         p
             font-size: 20px    
 
+
+@media(min-width: 992px)
+    html
+        scroll-padding-top: 57px
+
+  
