@@ -12,8 +12,19 @@ body
     font-family: 'Montserrat', sans-serif;
     background-color: #444
 
+h2
+    text-align: center
+    text-transform: uppercase
+    font-family: 'Permanent Marker', cursive;
+
+.underline
+    margin: 0 auto
+    width: 100px
+    height: 5px
+    background-color: $main-color
+
 .blue-text
-    color: $blue-color  
+    color: $main-color  
     font-family: 'Permanent Marker', cursive;
 
 .shadow-bg
@@ -33,7 +44,7 @@ nav
         color: $white
 
     .nav-link:hover
-        color: $blue-color
+        color: $main-color
 
     .fa-bars
         padding: 10px
@@ -42,7 +53,7 @@ nav
         font-weight: bold
 
     .active
-        color: $blue-color
+        color: $main-color
 
 header
     color: $white
@@ -90,6 +101,19 @@ header
         bottom: 20px
         font-size: 30px    
         color: $white
+
+
+.aboutus
+    i
+        margin-top: 18px
+        font-size: 30px
+
+    .aboutus-card-title
+        font-size: 18px
+        text-transform: uppercase
+
+    .aboutus-card-text
+        font-size: 14px        
 
 
 @media(min-width: 375px)
