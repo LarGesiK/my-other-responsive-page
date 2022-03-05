@@ -26,6 +26,9 @@ h2
     height: 5px
     background-color: $main-color
 
+.row
+    margin: 30px        
+
 .blue-text
     color: $main-color  
     font-family: 'Permanent Marker', cursive;
@@ -124,6 +127,28 @@ header
     .aboutus-hover:hover 
         color: $main-color
 
+.aboutus-hero
+    background-color: #fff
+
+.aboutus-hero-image    
+    position: relative
+    background-image: url('../img/aboutus.jpg')
+    background-position: center
+    background-size: cover
+    background-attachment: fixed
+    color: #ddd
+    height: 650px
+    z-index: 0
+
+    .aboutus-shadow
+        position: absolute
+        top: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0, .6);
+        z-index: -5
+        
+
 
 
 @media(min-width: 375px)
@@ -133,6 +158,7 @@ header
 
         p
             font-size: 16px    
+        
 
 
 @media(min-width: 768px)
@@ -141,7 +167,10 @@ header
             font-size: 42px
 
         p
-            font-size: 20px    
+            font-size: 20px  
+      
+    .aboutus-hero-image
+        height: 400px   
 
 
 @media(min-width: 992px)
