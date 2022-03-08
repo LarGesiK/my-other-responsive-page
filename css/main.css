@@ -277,11 +277,6 @@ header .fa-chevron-down {
   font-size: 14px;
 }
 
-.aboutus .aboutus-hover {
-  -webkit-transition: color .4s;
-  transition: color .4s;
-}
-
 .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
